@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page styling */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(120deg, #582f0e, #cd9777);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+header h1 {
+    font-size: 36px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+
+main {
+    padding:20px;
+}
+
+/* Puja section styling */
+.puja {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.puja h2 {
+    color: #9c6644;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.puja h3 {
+    font-size: 20px;
+    color: #432818;
+}
+
+.puja p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #9c6644;
+}
+
+/* Add hover effect on puja sections for interactivity */
+.puja:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    transition: background-color 0.3s, transform 0.3s;
+}
